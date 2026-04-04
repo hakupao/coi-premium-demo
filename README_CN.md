@@ -54,20 +54,20 @@
 
 ```mermaid
 graph TB
-    A["React 19 应用<br/>TypeScript"] -->|Vite| B["开发服务器"]
-    A -->|State| C["自定义 Hooks"]
-    A -->|Components| D["shadcn/ui<br/>Radix UI"]
-    A -->|Styles| E["Tailwind CSS"]
-    
-    C -->|Router| F["仪表板"]
-    C -->|Router| G["新 COI 表单"]
-    C -->|Router| H["申请"]
-    C -->|Router| I["研究"]
-    C -->|Router| J["存档"]
+ A["React 19 应用<br/>TypeScript"] -->|Vite| B["开发服务器"]
+ A -->|State| C["自定义 Hooks"]
+ A -->|Components| D["shadcn/ui<br/>Radix UI"]
+ A -->|Styles| E["Tailwind CSS"]
+ 
+ C -->|Router| F["仪表板"]
+ C -->|Router| G["新 COI 表单"]
+ C -->|Router| H["申请"]
+ C -->|Router| I["研究"]
+ C -->|Router| J["存档"]
 
-    style A fill:#FFE5E5
-    style B fill:#E5F5FF
-    style D fill:#E5E5FF
+ style A fill:#FFE5E5
+ style B fill:#E5F5FF
+ style D fill:#E5E5FF
 ```
 
 ---
@@ -249,6 +249,30 @@ export function COIForm() {
   )
 }
 ```
+
+---
+
+
+
+### 界面截图
+
+<details open>
+<summary><strong>桌面端</strong></summary>
+
+| 仪表板 | 申请管理 | 研究一览 |
+|:------:|:-------:|:-------:|
+| ![仪表板](docs/images/dashboard-desktop.png) | ![申请管理](docs/images/applications-desktop.png) | ![研究一览](docs/images/research-desktop.png) |
+
+</details>
+
+<details>
+<summary><strong>移动端</strong></summary>
+
+| 仪表板 | 导航菜单 |
+|:------:|:-------:|
+| ![移动仪表板](docs/images/dashboard-mobile.png) | ![移动菜单](docs/images/mobile-menu.png) |
+
+</details>
 
 ---
 

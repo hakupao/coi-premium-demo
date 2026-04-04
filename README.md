@@ -54,20 +54,20 @@
 
 ```mermaid
 graph TB
-    A["React 19 App<br/>TypeScript"] -->|Vite| B["Development Server"]
-    A -->|State| C["Custom Hooks"]
-    A -->|Components| D["shadcn/ui<br/>Radix UI"]
-    A -->|Styles| E["Tailwind CSS"]
-    
-    C -->|Router| F["Dashboard"]
-    C -->|Router| G["New COI Form"]
-    C -->|Router| H["Applications"]
-    C -->|Router| I["Research"]
-    C -->|Router| J["Archive"]
+ A["React 19 App<br/>TypeScript"] -->|Vite| B["Development Server"]
+ A -->|State| C["Custom Hooks"]
+ A -->|Components| D["shadcn/ui<br/>Radix UI"]
+ A -->|Styles| E["Tailwind CSS"]
+ 
+ C -->|Router| F["Dashboard"]
+ C -->|Router| G["New COI Form"]
+ C -->|Router| H["Applications"]
+ C -->|Router| I["Research"]
+ C -->|Router| J["Archive"]
 
-    style A fill:#FFE5E5
-    style B fill:#E5F5FF
-    style D fill:#E5E5FF
+ style A fill:#FFE5E5
+ style B fill:#E5F5FF
+ style D fill:#E5E5FF
 ```
 
 ---
@@ -249,6 +249,30 @@ export function COIForm() {
   )
 }
 ```
+
+---
+
+
+
+### Screenshots
+
+<details open>
+<summary><strong>Desktop Views</strong></summary>
+
+| Dashboard | Applications | Research |
+|:---------:|:------------:|:--------:|
+| ![Dashboard](docs/images/dashboard-desktop.png) | ![Applications](docs/images/applications-desktop.png) | ![Research](docs/images/research-desktop.png) |
+
+</details>
+
+<details>
+<summary><strong>Mobile Views</strong></summary>
+
+| Dashboard | Navigation |
+|:---------:|:----------:|
+| ![Mobile Dashboard](docs/images/dashboard-mobile.png) | ![Mobile Menu](docs/images/mobile-menu.png) |
+
+</details>
 
 ---
 
